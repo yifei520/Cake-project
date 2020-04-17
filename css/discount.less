@@ -1,0 +1,87 @@
+@charset "utf-8";
+@color: #692c12;
+#discount{
+    width: 100%;
+    height: 460px;
+    background: url("../img/banners/banner3.jpg")no-repeat center;
+    .dis-cont{
+        position: relative;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        .limited{
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 100%;
+            height: 301px;
+            .limit-con{
+                width: 230px;
+                height: 100%;
+                h3{
+                    padding-top: 40px;
+                    font-size: 34px;
+                    font-weight: normal;
+                    color: @color;
+                }
+                p{
+                    margin: 15px 0 30px 0;
+                    color: @color;
+                }
+                .look-more{
+                    width: 120px;
+                    height: 35px;
+                    line-height: 35px;
+                    font-size: 14px;
+                    color: #fff;
+                    text-align: center;
+                    background-color: @color;
+                    border: 1px solid @color;
+                    &:hover{
+                        background-color: transparent;
+                        color: @color;
+                    }
+                }
+            }
+        }
+    }
+    .discount-box{
+        display: flex;
+        justify-content: space-between;
+        width: 970px;
+        li{
+            width: 240px;
+            height: 301px;
+            background-color: #fff;
+            a{
+                display: block;
+                width: 200px;
+                margin: 0 auto;
+                padding-top: 30px;
+                box-sizing: border-box;
+                &:hover{
+                    text-decoration: underline;
+                }
+                p{
+                    text-align: center;
+                    padding-bottom: 15px;
+                }
+            }
+            p{
+                text-align: center;
+                color: @color;
+                strong{
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+                span{
+                    text-decoration: line-through;
+                    color: #888;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+@color: #692c12;
+#nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    .navlist{
+        width: 1200px;
+        height: 60px;
+        margin: 0 auto;
+        padding-left: 128px;
+        box-sizing: border-box;
+        li{
+            height: 110px;
+            float: left;
+            font-size: 16px;
+            .first-list{
+                border-bottom: 5px solid @color;
+            }
+            +li{
+                margin-left: 70px;
+            }
+            a{
+                display: block;
+                width: 70px;
+                height: 55px;
+                text-align: center;
+                line-height: 55px;
+                &:hover{
+                    border-bottom: 5px solid @color;
+                }
+            }
+        }
+    }
+}

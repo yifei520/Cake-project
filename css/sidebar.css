@@ -1,0 +1,168 @@
+#sidebar{
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    width: 50px;
+    height: 242px;
+    margin-top: -179px;
+    z-index: 10000;
+}
+#sidebar .main{
+    position: relative;
+    border-radius: 8px 0 0 8px;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: #C1BFC0;  
+    transition: all .3s;
+}
+#sidebar .main .prev-btn{
+    padding-top: 7px;  
+    margin-bottom: 8px;
+}
+#sidebar .main .prev-btn a{
+    display: inline-block;
+    width: 25px;
+    height: 13px;
+    background: url(../img/side/prev_icon.png);
+}
+#sidebar .main .side-list{
+   width: 100%;
+   height: 140px;
+   margin-bottom: 8px;
+}
+#sidebar .main .side-list ul li{
+    position: relative;
+    text-align: center;
+    height: 40px;
+    width: auto;
+    padding: 0;
+    border: 0;
+    overflow: inherit;
+    margin-bottom: 10px;
+ }
+#sidebar .main .side-list ul li a{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    margin-top: 7px;
+    z-index: 2;
+}
+#sidebar .main .side-list ul li a.tel{
+    width: 26px;
+    height: 26px;
+    background: url(../img/side/tel_icon.png);
+}
+#sidebar .main .side-list ul li a.edit{
+    width: 25px;
+    height: 25px;
+    background: url(../img/side/edit_icon.png);
+}
+#sidebar .main .side-list ul li a.mail{
+    width: 26px;
+    height: 25px;
+    background: url(../img/side/mail_icon.png);
+}
+#sidebar .main .side-list ul li .tel-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px 0 0 8px;
+    width: 178px;
+    height: 138px;
+    background: #C1BFC0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#sidebar .main .side-list ul li .tel-text h2{
+    margin-top: 7px;
+    padding: 0 20px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #eee;  
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CFCDCE;
+}
+#sidebar .main .side-list ul li .tel-text .num{
+    padding: 20px;
+}
+#sidebar .main .side-list ul li .tel-text .num span{
+    display: inline-block;
+    width: 139px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    background: url(../img/side/tel_border.png);
+}
+
+#sidebar .main .side-list ul li .mail-text,
+#sidebar .main .side-list ul li .edit-text{
+    position: absolute;
+    left: 0;
+    top: -2px;
+    border-radius: 8px 0 0 8px;
+    width: 106px;
+    height: 45px;
+    background: #C1BFC0;
+    transition: all 0.5s;
+    z-index: -1;
+    opacity: 0;
+}
+#sidebar .main .side-list ul li:hover .mail-text,
+#sidebar .main .side-list ul li:hover .edit-text{
+    left: -105px;
+    opacity: 1;
+}
+#sidebar .main .side-list ul li:hover .tel-text{
+    left: -178px;
+    opacity: 1;
+}
+#sidebar .main .side-list ul li .mail-text a,
+#sidebar .main .side-list ul li .edit-text a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 0;
+}
+#sidebar .main .side-list ul li a em{
+    font-style: normal;   
+}
+
+#sidebar .main .next-btn a{
+    display: inline-block;
+    width: 25px;
+    height: 13px;
+    background: url(../img/side/next_icon.png);
+}
+#sidebar #onbtn{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 10px auto 0;
+    background: url(../img/side/hide_btn.png) no-repeat center;
+}
+#sidebar #onbtn.on{ 
+    background: url(../img/side/show_btn.png) no-repeat center;
+}
+
+#backTop{
+    display: none;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: 0;
+    opacity: .9;
+    filter: alpha(opacity=90);   /* 兼容 */
+    background: transparent url(../img/side/back_top_Z.png) no-repeat center;
+    z-index: 50;
+}

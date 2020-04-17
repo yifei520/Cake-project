@@ -1,0 +1,73 @@
+@charset "utf-8";
+body{
+  min-width: 1300px;
+}
+#header {
+  width: 100%;
+  height: 110px;
+  background-color: #ffd400;
+}
+#header .header-con {
+  width: 1250px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header #login li {
+  height: 110px;
+  float: left;
+  box-sizing: border-box;
+}
+#header #login li span {
+  padding-left: 15px;
+  color: #692c12;
+}
+#header #login .line-height {
+  line-height: 110px;
+  color: #692c12;
+}
+#header #login .line-height a {
+  padding: 0 15px;
+  border-right: 1px solid #692c12;
+}
+#header #login li:nth-child(4) {
+  padding: 15px 130px 0 295px;
+}
+#header #login .search {
+  width: 190px;
+  height: 41px;
+  margin-top: 30px;
+  margin-right: 80px;
+  border-bottom: 1px solid #692c12;
+}
+#header #login .search input {
+  border: 0;
+  outline: 0;
+  height: 33px;
+  background-color: transparent;
+}
+#header #login .search input[type="text"] {
+  width: 140px;
+  text-indent: 10px;
+  color: rgb(105, 44, 18);
+}
+/* 修改表单中placeholder文字颜色 */
+input::-webkit-input-placeholder{
+  color: rgb(105, 44, 18);
+}
+#header #login .search input[type="submit"] {
+  width: 50px;
+  font-size: 20px;
+  text-align: right;
+}
+#header #login .shopcar {
+  line-height: 110px;
+  font-size: 14px;
+}
+#header #login .shopcar a {
+  padding-left: 5px;
+  border-right: 0;
+  vertical-align: top;
+}
+#header #login .shopcar i {
+  font-size: 22px;
+}

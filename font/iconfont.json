@@ -1,0 +1,100 @@
+{
+  "id": "1482459",
+  "name": "蛋糕",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "729089",
+      "name": "雪花",
+      "font_class": "1",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "975544",
+      "name": "结课标准-笔记数",
+      "font_class": "jiekebiaozhunbijishu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "3351945",
+      "name": "上下箭头",
+      "font_class": "jiantou",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "3568759",
+      "name": "上下箭头",
+      "font_class": "jiantou1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4511462",
+      "name": "电话",
+      "font_class": "weibiaoti-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4852467",
+      "name": "快递",
+      "font_class": "kuaidi",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "6337914",
+      "name": "商店",
+      "font_class": "shangdian_huaban",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7603108",
+      "name": "小时计费",
+      "font_class": "xiaoshijifei",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "8099971",
+      "name": "左右箭头",
+      "font_class": "left-arrow",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "8568645",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "9212498",
+      "name": "左右箭头",
+      "font_class": "page-left",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "9627251",
+      "name": "登录 - 面性",
+      "font_class": "denglu-mianxing",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10725697",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    }
+  ]
+}

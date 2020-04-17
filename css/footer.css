@@ -1,0 +1,95 @@
+@charset "utf-8";
+#footer {
+  width: 100%;
+  height: 560px;
+}
+#footer .footer-con {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+#footer .footer-con .foot-service {
+  width: 100%;
+  height: 130px;
+  border: 1px solid #ededed;
+  background-color: #fafafa;
+}
+#footer .footer-con .foot-service ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+#footer .footer-con .foot-service ul li {
+  padding-left: 50px;
+  width: 298px;
+  height: 64px;
+}
+#footer .footer-con .foot-service ul li + li {
+  border-left: 1px solid #eee;
+}
+#footer .footer-con .foot-service ul li i {
+  font-size: 46px;
+  line-height: 64px;
+  color: #FFD400;
+  cursor: pointer;
+}
+#footer .footer-con .foot-service ul li i:hover {
+  transition-duration: 0.5s;
+  color: #692c12;
+}
+#footer .footer-con .foot-service ul li .timing {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #555;
+}
+#footer .footer-con .foot-service ul li .timing p {
+  margin-top: 10px;
+}
+#footer .footer-con .foot-service ul li .timing .arrive {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+}
+#footer .footer-con .sale-service {
+  display: flex;
+  justify-content: space-between;
+  height: 240px;
+  padding-top: 50px;
+  border-bottom: 1px solid #EDEDED;
+}
+#footer .footer-con .sale-service dt {
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+#footer .footer-con .sale-service dd a {
+  color: #999;
+  font-size: 12px;
+}
+#footer .footer-con .sale-service dd a:hover {
+  color: #692c12;
+  text-decoration: underline;
+  transition-duration: 0.5s;
+}
+#footer .footer-con .sale-service dd + dd {
+  margin-top: 10px;
+}
+#footer .footer-con .sale-service .eventual {
+  text-align: right;
+}
+#footer .footer-con .sale-service .wechat {
+  margin: 0;
+  text-align: center;
+  color: #999;
+}
+#footer .footer-con .safety {
+  height: 112px;
+}
+#footer .footer-con .safety p {
+  text-align: center;
+  line-height: 24px;
+}
+#footer .footer-con .safety .plice {
+  height: 64px;
+  line-height: 64px;
+  color: #999;
+}

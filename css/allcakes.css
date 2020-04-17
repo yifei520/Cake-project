@@ -1,0 +1,230 @@
+@charset "utf-8";
+#all-cakes {
+  width: 100%;
+}
+#all-cakes .kinds-cake {
+  overflow: hidden;
+  width: 1201px;
+  height: 100%;
+  margin: 0 auto;
+}
+#all-cakes .kinds-cake .kinds-birthday {
+  width: 100%;
+  height: 652px;
+  margin-top: 50px;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list {
+  height: 50px;
+  background-color: #fff;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake1,
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake2,
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake3,
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake4 {
+  float: left;
+  font-size: 26px;
+  font-weight: normal;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake1 {
+  color: #00b4ff;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake2 {
+  color: orange;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake3 {
+  color: #70B92E;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list .list-cake4 {
+  color: #7E42D0;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list ul {
+  float: right;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list ul li {
+  float: left;
+  margin-top: 10px;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list ul li a {
+  display: block;
+  width: 68px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #777;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list ul li a:hover {
+  color: #692c12;
+}
+#all-cakes .kinds-cake .kinds-birthday .bir-list ul li + li {
+  border-left: 1px solid #692c12;
+}
+#all-cakes .kinds-cake .bir-cakes {
+  width: 100%;
+  height: 600px;
+}
+#all-cakes .kinds-cake .bir-cakes ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+  height: 560px;
+  border: 1px solid #eee;
+  border-top-color: #00b4ff;
+}
+#all-cakes .kinds-cake .bir-cakes ul li {
+  width: 300px;
+  height: 280px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list1,
+#all-cakes .kinds-cake .bir-cakes ul li .list2,
+#all-cakes .kinds-cake .bir-cakes ul li .list3,
+#all-cakes .kinds-cake .bir-cakes ul li .list4,
+#all-cakes .kinds-cake .bir-cakes ul li .list5,
+#all-cakes .kinds-cake .bir-cakes ul li .list6 {
+  position: relative;
+  display: block;
+  width: 209px;
+  height: 200px;
+  margin: auto;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list1::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list2::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list3::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list4::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list5::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list6::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 209px;
+  height: 200px;
+  margin: auto;
+  transition: 0.3s;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list1::before {
+  background: url("../img/cake/08.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list2::before {
+  background: url("../img/cake/07.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list3::before {
+  background: url("../img/cake/09.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list4::before {
+  background: url("../img/cake/02.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list5::before {
+  background: url("../img/cake/01.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list6::before {
+  background: url("../img/cake/03.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .list1:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list2:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list3:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list4:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list5:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .list6:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost1:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost2:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost3:hover::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost4:hover::before {
+  opacity: 0.2;
+  transform: rotateY(90deg);
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost1,
+#all-cakes .kinds-cake .bir-cakes ul li .lost2,
+#all-cakes .kinds-cake .bir-cakes ul li .lost3 {
+  position: relative;
+  display: block;
+  width: 270px;
+  height: 237px;
+  margin: auto;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost4 {
+  position: relative;
+  display: block;
+  width: 287px;
+  height: 203px;
+  margin: auto;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost1::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost2::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost3::before,
+#all-cakes .kinds-cake .bir-cakes ul li .lost4::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 270px;
+  height: 237px;
+  margin: auto;
+  transition: 0.3s;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost1::before {
+  background: url("../img/cake/10.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost2::before {
+  background: url("../img/cake/12.jpg") no-repeat;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost3::before {
+  background: url("../img/cake/04.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .lost4::before {
+  background: url("../img/cake/11.jpg") no-repeat center;
+}
+#all-cakes .kinds-cake .bir-cakes ul li .introduce {
+  text-align: center;
+  font-size: 14px;
+}
+#all-cakes .kinds-cake .bir-cakes ul li span {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #692c12;
+}
+#all-cakes .kinds-cake .bir-cakes ul li a:hover {
+  text-decoration: underline;
+}
+#all-cakes .kinds-cake .bir-cakes ul .border-bottom {
+  border-bottom: 1px solid #eee;
+}
+#all-cakes .kinds-cake .bir-cakes ul .border-right {
+  border-right: 1px solid #eee;
+}
+#all-cakes .kinds-cake .bir-cakes ul .border-right h4,
+#all-cakes .kinds-cake .bir-cakes ul .border-right strong,
+#all-cakes .kinds-cake .bir-cakes ul .border-right .intro {
+  padding-left: 20px;
+}
+#all-cakes .kinds-cake .bir-cakes ul li:nth-child(1) {
+  padding: 18px 0 0 30px;
+}
+#all-cakes .kinds-cake .bir-cakes ul li:nth-child(2) {
+  padding-top: 70px;
+}
+#all-cakes .kinds-cake .bir-cakes ul li:nth-child(2) a {
+  font-size: 20px;
+  font-weight: normal;
+}
+#all-cakes .kinds-cake .bir-cakes ul li:nth-child(2) p {
+  padding: 10px 0 30px 0;
+  width: 240px;
+  line-height: 24px;
+  color: #888;
+}
+#all-cakes .kinds-cake .bir-cakes ul li:nth-child(2) strong {
+  font-size: 24px;
+  color: #692c12;
+}

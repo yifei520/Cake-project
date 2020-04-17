@@ -1,0 +1,86 @@
+@charset "utf-8";
+#discount {
+  width: 100%;
+  height: 460px;
+  background: url("../img/banners/banner3.jpg") no-repeat center;
+}
+#discount .dis-cont {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+#discount .dis-cont .limited {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 301px;
+}
+#discount .dis-cont .limited .limit-con {
+  width: 230px;
+  height: 100%;
+}
+#discount .dis-cont .limited .limit-con h3 {
+  padding-top: 40px;
+  font-size: 34px;
+  font-weight: normal;
+  color: #692c12;
+}
+#discount .dis-cont .limited .limit-con p {
+  margin: 15px 0 30px 0;
+  color: #692c12;
+}
+#discount .dis-cont .limited .limit-con .look-more {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: #692c12;
+  border: 1px solid #692c12;
+}
+#discount .dis-cont .limited .limit-con .look-more:hover {
+  background-color: transparent;
+  color: #692c12;
+}
+#discount .discount-box {
+  display: flex;
+  justify-content: space-between;
+  width: 970px;
+}
+#discount .discount-box li {
+  width: 240px;
+  height: 301px;
+  background-color: #fff;
+}
+#discount .discount-box li a {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+#discount .discount-box li a:hover {
+  text-decoration: underline;
+}
+#discount .discount-box li a p {
+  text-align: center;
+  padding-bottom: 15px;
+}
+#discount .discount-box li p {
+  text-align: center;
+  color: #692c12;
+}
+#discount .discount-box li p strong {
+  font-size: 18px;
+  font-weight: normal;
+}
+#discount .discount-box li p span {
+  text-decoration: line-through;
+  color: #888;
+}

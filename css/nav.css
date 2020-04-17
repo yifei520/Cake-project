@@ -1,0 +1,35 @@
+@charset "utf-8";
+#nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+#nav .navlist {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  padding-left: 128px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#nav .navlist li {
+  height: 110px;
+  float: left;
+  font-size: 16px;
+}
+#nav .navlist li .first-list {
+  border-bottom: 5px solid #692c12;
+}
+#nav .navlist li + li {
+  margin-left: 70px;
+}
+#nav .navlist li a {
+  display: block;
+  width: 70px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+}
+#nav .navlist li a:hover {
+  border-bottom: 5px solid #692c12;
+}

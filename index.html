@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>翼飞的蛋糕店</title>
+    <!-- 引入网站图标 -->
+    <link rel="shortcut icon" href="./img/dan.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/sellwell.css">
+    <link rel="stylesheet" href="./css/discount.css">
+    <link rel="stylesheet" href="./css/allcakes.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+</head>
+
+<body>
+    <!-- head start -->
+    <div id="header">
+        <div class="header-con">
+            <ul class="clearfix" id="login">
+                <li class="line-height">
+                    <i class="iconfont icon-denglu"></i>
+                    <a href="">登录</a>
+                </li>
+                <li class="line-height">
+                    <a href="">注册</a>
+                </li>
+                <li class="line-height fl">
+                    <span> 预定热线：400-000-0000</span>
+                </li>
+                <li>
+                    <h1>
+                        <img src="./img/icon/icon6.png" alt="">
+                    </h1>
+                </li>
+                <li class="search clearfix">
+                    <form action="">
+                        <!-- <input type="text" class="fl" placeholder="请输入关键字" > -->
+                        <input type="text" class="fl" value="请输入关键字" onfocus="if(this.value == '请输入关键字'){
+                            this.value = '';}" onblur="if(this.value == ''){this.value = '请输入关键字';}">
+                        <input type="submit" class="fl iconfont" value="&#xe614">
+                    </form>
+                </li>
+                <li class="shopcar">
+                    <i class="iconfont icon-icon22fuzhi"></i>
+                    <a href="">我的购物车<strong> 0 </strong>件商品</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- head end -->
+    <!-- nav-start -->
+    <nav id="nav">
+        <ul class="navlist clearfix">
+            <li><a href="" class="first-list">网站首页</a></li>
+            <li><a href="">生日蛋糕</a></li>
+            <li><a href="">儿童蛋糕</a></li>
+            <li><a href="">祝寿蛋糕</a></li>
+            <li><a href="">水果蛋糕</a></li>
+            <li><a href="">多层蛋糕</a></li>
+            <li><a href="">蛋糕礼仪</a></li>
+        </ul>
+    </nav>
+    <!-- nav-end -->
+    <!-- banner-start -->
+    <div id="banner">
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- 按钮-->
+        <div class="btn">
+            <span class="on"></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- banner-end -->
+    <!-- set meal display start -->
+    <div id="sell-well">
+        <div class="hot-product">
+            <div class="products">
+                <div class="product-left">
+                    <div class="product-list">
+                        <ul>
+                            <li class="hot-cake">
+                                <a href="javascript:;">本店爆款</a>
+                            </li>
+                            <li class="list-cake">
+                                <a href="javascript:;">新品推荐</a>
+                            </li>
+                            <li class="list-cake">
+                                <a href="javascript:;">限时特惠</a>
+                            </li>
+                            <li class="list-cake">
+                                <a href="javascript:;">超值秒杀</a>
+                            </li>
+                            <li class="list-cake">
+                                <a href="javascript:;">超值套餐</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-content">
+                        <div class="contenting">
+                            <img src="./img/icon/icon7.png" width="70" height="74" alt="">
+                            <p class="boom">爆款</p>
+                            <div class="con-img">
+                                <div class="img-info">
+                                    <img src="./img/cake/cake1.png" width="355" height="276" alt="">
+                                </div>
+                                <div class="cake-intro">
+                                    <h3>草莓拿破仑</h3>
+                                    <p class="feature">
+                                        酥皮的香脆、蛋糕胚的绵软，口味层次感丰富十足，决不辜负发烧级“吃货”的挑剔味觉。
+                                    </p>
+                                    <p class="price"><strong>198</strong>元</p>
+                                    <div class="look-more">查看更多</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenting">
+                            <img src="./img/icon/icon7.png" width="70" height="74" alt="">
+                            <p class="boom">新品</p>
+                            <div class="con-img">
+                                <div class="img-info">
+                                    <img src="./img/cake/13.jpg" width="353" height="317" alt="">
+                                </div>
+                                <div class="cake-intro">
+                                    <h3>倾慕|抹茶慕斯</h3>
+                                    <p class="feature">
+                                        酥皮的香脆、蛋糕胚的绵软，口味层次感丰富十足，决不辜负发烧级“吃货”的挑剔味觉。
+                                    </p>
+                                    <p class="price"><strong>218</strong>元</p>
+                                    <div class="look-more">查看更多</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenting">
+                            <img src="./img/icon/icon7.png" width="70" height="74" alt="">
+                            <p class="boom">特惠</p>
+                            <div class="con-img">
+                                <div class="img-info">
+                                    <img src="./img/cake/cake4.png" width="257" height="276" alt="">
+                                </div>
+                                <div class="cake-intro">
+                                    <h3>雪中相拥</h3>
+                                    <p class="feature">
+                                        酥皮的香脆、蛋糕胚的绵软，口味层次感丰富十足，决不辜负发烧级“吃货”的挑剔味觉。
+                                    </p>
+                                    <p class="price"><strong>328</strong>元</p>
+                                    <div class="look-more">查看更多</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenting">
+                            <img src="./img/icon/icon7.png" width="70" height="74" alt="">
+                            <p class="boom">秒杀</p>
+                            <div class="con-img">
+                                <div class="img-info">
+                                    <img src="./img/cake/cake5.png" width="274" height="276" alt="">
+                                </div>
+                                <div class="cake-intro">
+                                    <h3>黑森林蛋糕</h3>
+                                    <p class="feature">
+                                        酥皮的香脆、蛋糕胚的绵软，口味层次感丰富十足，决不辜负发烧级“吃货”的挑剔味觉。
+                                    </p>
+                                    <p class="price"><strong>288</strong>元</p>
+                                    <div class="look-more">查看更多</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenting">
+                            <img src="./img/icon/icon7.png" width="70" height="74" alt="">
+                            <p class="boom">套餐</p>
+                            <div class="con-img">
+                                <div class="img-info">
+                                    <img src="./img/cake/cake6.png" width="270" height="279" alt="">
+                                </div>
+                                <div class="cake-intro">
+                                    <h3>四季恋歌</h3>
+                                    <p class="feature">
+                                        酥皮的香脆、蛋糕胚的绵软，口味层次感丰富十足，决不辜负发烧级“吃货”的挑剔味觉。
+                                    </p>
+                                    <p class="price"><strong>318</strong>元</p>
+                                    <div class="look-more">查看更多</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-right">
+                    <div class="product-cake1 cakes">
+                        <h4>情人蛋糕</h4>
+                        <p class="">酥皮的香脆、蛋糕胚的绵软</p>
+                        <img src="./img/cake/cake2.png" alt="">
+                    </div>
+                    <div class="product-cake2 cakes">
+                        <h4>浅草</h4>
+                        <p class="">浅草才能没马蹄</p>
+                        <img src="./img/cake/cake3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- set meal display end -->
+    <!-- discount-start -->
+    <div id="discount">
+        <div class="dis-cont">
+            <div class="limited">
+                <div class="limit-con">
+                    <h3>限时折扣</h3>
+                    <p>每天节省一点点</p>
+                    <div class="look-more">查看更多</div>
+                </div>
+                <ul class="discount-box">
+                    <li>
+                        <a href="">
+                            <img src="./img/cake/06.png" alt="">
+                            <p>四季恋歌</p>
+                        </a>
+                        <p>
+                            <strong>￥258</strong>
+                            <span class="oldprice"> ￥368</span>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/cake/05.png" alt="">
+                            <p>榴莲飘飘</p>
+                        </a>
+                        <p>
+                            <strong>￥258</strong>
+                            <span class="oldprice"> ￥368</span>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/cake/01.png" alt="">
+                            <p>相恋之约</p>
+                        </a>
+                        <p>
+                            <strong>￥258</strong>
+                            <span class="oldprice"> ￥368</span>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/cake/03.png" alt="">
+                            <p>百香果酸乳酪慕斯蛋糕</p>
+                        </a>
+                        <p>
+                            <strong>￥258</strong>
+                            <span class="oldprice"> ￥368</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- discount-end -->
+    <!-- all kinds of cakes start -->
+    <div id="all-cakes">
+        <div class="kinds-cake">
+            <!-- birthday cake start -->
+            <div class="kinds-birthday">
+                <div class="bir-list clearfix">
+                    <h4 class="list-cake1">生日蛋糕</h4>
+                    <ul class="clearfix">
+                        <li><a href="">送长辈</a></li>
+                        <li><a href="">送孩子</a></li>
+                        <li><a href="">送朋友</a></li>
+                        <li><a href="">更多 > </a></li>
+                    </ul>
+                </div>
+                <div class="bir-cakes">
+                    <ul>
+                        <li class="border-bottom">
+                            <a href="" class="big-cake lost1">
+                                <img src="./img/cake/10.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="">
+                                <h4>莓之浓情 Strawberry Cake</h4>
+                            </a>
+                            <p class="intro">绵细的香草蛋糕胚与淡淡鲜奶油，搭配新鲜草莓，鲜美细腻。</p>
+                            <strong>￥218</strong>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list1">
+                                <img src="./img/cake/08.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">法兰西丝带 France Riband</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list2">
+                                <img src="./img/cake/07.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">布朗尼</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list3">
+                                <img src="./img/cake/09.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">桂圆冰淇淋蛋糕</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list4">
+                                <img src="./img/cake/02.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">深艾尔</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list5">
+                                <img src="./img/cake/01.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">杏仁克鲁兹</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list6">
+                                <img src="./img/cake/03.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">风乍起</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="kinds-birthday">
+                <div class="bir-list clearfix">
+                    <h4 class="list-cake2">儿童蛋糕</h4>
+                    <ul class="clearfix">
+                        <li><a href="">送长辈</a></li>
+                        <li><a href="">送孩子</a></li>
+                        <li><a href="">送朋友</a></li>
+                        <li><a href="">更多 > </a></li>
+                    </ul>
+                </div>
+                <div class="bir-cakes">
+                    <ul>
+                        <li class="border-bottom">
+                            <a href="" class="big-cake lost2">
+                                <img src="./img/cake/12.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="">
+                                <h4>黑白巧克力慕斯（彼尔德）</h4>
+                            </a>
+                            <p class="intro">绵细的香草蛋糕胚与淡淡鲜奶油，搭配新鲜草莓，鲜美细腻。</p>
+                            <strong>￥218</strong>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list1">
+                                <img src="./img/cake/08.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">法兰西丝带 France Riband</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list2">
+                                <img src="./img/cake/07.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">布朗尼</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list3">
+                                <img src="./img/cake/09.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">桂圆冰淇淋蛋糕</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list4">
+                                <img src="./img/cake/02.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">深艾尔</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list5">
+                                <img src="./img/cake/01.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">杏仁克鲁兹</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list6">
+                                <img src="./img/cake/03.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">风乍起</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="kinds-birthday">
+                <div class="bir-list clearfix">
+                    <h4 class="list-cake3">祝寿蛋糕</h4>
+                    <ul class="clearfix">
+                        <li><a href="">送长辈</a></li>
+                        <li><a href="">送孩子</a></li>
+                        <li><a href="">送朋友</a></li>
+                        <li><a href="">更多 > </a></li>
+                    </ul>
+                </div>
+                <div class="bir-cakes">
+                    <ul>
+                        <li class="border-bottom">
+                            <a href="" class="big-cake lost3">
+                                <img src="./img/cake/04.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="">
+                                <h4>Café Mocha摩卡</h4>
+                            </a>
+                            <p class="intro">绵细的香草蛋糕胚与淡淡鲜奶油，搭配新鲜草莓，鲜美细腻。</p>
+                            <strong>￥218</strong>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list1">
+                                <img src="./img/cake/08.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">法兰西丝带 France Riband</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list2">
+                                <img src="./img/cake/07.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">布朗尼</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list3">
+                                <img src="./img/cake/09.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">桂圆冰淇淋蛋糕</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list4">
+                                <img src="./img/cake/02.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">深艾尔</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list5">
+                                <img src="./img/cake/01.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">杏仁克鲁兹</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list6">
+                                <img src="./img/cake/03.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">风乍起</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="kinds-birthday">
+                <div class="bir-list clearfix">
+                    <h4 class="list-cake4">其他蛋糕</h4>
+                    <ul class="clearfix">
+                        <li><a href="">送长辈</a></li>
+                        <li><a href="">送孩子</a></li>
+                        <li><a href="">送朋友</a></li>
+                        <li><a href="">更多 > </a></li>
+                    </ul>
+                </div>
+                <div class="bir-cakes">
+                    <ul>
+                        <li class="border-bottom">
+                            <a href="" class="big-cake lost4">
+                                <img src="./img/cake/11.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="">
+                                <h4>Matcha 抹茶和栗</h4>
+                            </a>
+                            <p class="intro">绵细的香草蛋糕胚与淡淡鲜奶油，搭配新鲜草莓，鲜美细腻。</p>
+                            <strong>￥218</strong>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list1">
+                                <img src="./img/cake/08.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">法兰西丝带 France Riband</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-bottom border-right">
+                            <a href="" class="img-effect list2">
+                                <img src="./img/cake/07.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">布朗尼</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list3">
+                                <img src="./img/cake/09.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">桂圆冰淇淋蛋糕</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list4">
+                                <img src="./img/cake/02.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">深艾尔</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list5">
+                                <img src="./img/cake/01.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">杏仁克鲁兹</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                        <li class="border-right">
+                            <a href="" class="img-effect list6">
+                                <img src="./img/cake/03.jpg" alt="">
+                            </a>
+                            <a href="">
+                                <p class="introduce">风乍起</p>
+                            </a>
+                            <span>￥128</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- birthday cake end -->
+        </div>
+    </div>
+    <!-- all kinds of cakes end -->
+    <!-- footer start -->
+    <div id="footer">
+        <div class="footer-con">
+            <div class="foot-service">
+                <ul>
+                    <li>
+                        <i class="iconfont fl">&#xe62e;</i>
+                        <div class="timing fl">
+                            <p>2小时达</p>
+                            <p class="arrive">同城可预约2小时之内送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="iconfont fl">&#xe6b7;</i>
+                        <div class="timing fl">
+                            <p>全程冷链</p>
+                            <p class="arrive">配送途中全程冷链运输</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="iconfont fl">&#xe626;</i>
+                        <div class="timing fl">
+                            <p>货到付款</p>
+                            <p class="arrive">支持货到付款</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="iconfont fl">&#xe602;</i>
+                        <div class="timing fl">
+                            <p>门店自提</p>
+                            <p class="arrive">全城24个门店支持自提</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sale-service">
+                <dl>
+                    <dt><b>新手指南</b></dt>
+                    <dd>
+                        <a href="">用户注册</a>
+                    </dd>
+                    <dd>
+                        <a href="">找回密码</a>
+                    </dd>
+                    <dd>
+                        <a href="">购物流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">会员积分详情</a>
+                    </dd>
+                    <dd>
+                        <a href="">优惠券使用</a>
+                    </dd>
+                    <dd>
+                        <a href="">VIP会员</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><b>付款方式</b></dt>
+                    <dd>
+                        <a href="">支付方式</a>
+                    </dd>
+                    <dd>
+                        <a href="">上门收款</a>
+                    </dd>
+                    <dd>
+                        <a href="">国际客户支付</a>
+                    </dd>
+                    <dd>
+                        <a href="">发票说明</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送费用收取标准</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dd>
+                        <img src="./img/icon/1.jpg" alt="" width="120" height="120">
+                    </dd>
+                    <dd class="wechat">关注微信</dd>
+                </dl>
+                <dl>
+                    <dt><b>配送信息</b></dt>
+                    <dd>
+                        <a href="">配送方式</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送服务</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送服务说明</a>
+                    </dd>
+                </dl>
+                <dl class="eventual">
+                    <dt><b>售后服务</b></dt>
+                    <dd>
+                        <a href="">订单查询</a>
+                    </dd>
+                    <dd>
+                        <a href="">投诉处理</a>
+                    </dd>
+                    <dd>
+                        <a href="">修改订单</a>
+                    </dd>
+                    <dd>
+                        <a href="">商务合作</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="safety">
+                <p class="plice">Copyright 2013-2017 京ICP备10000000号-0</p>
+                <p>Copyright @ 2019 . All rights reserved.</p>
+                <p>	某某公司网站</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    <!-- sidebar start -->
+    <div id="sidebar">
+        <!-- 侧边栏 -->
+        <div class="side-main">
+            <ul class="main">
+                <li class="prev-btn"><a href="javascript:;"></a></li>
+                <li class="side-list">
+                    <ul>
+                        <li>
+                            <a href="javascript:;" class="tel"></a>
+                            <div class="tel-text">
+                                <h2>电话直播</h2>
+                                <div class="num"><span>13888888888</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="edit"></a>
+                            <div class="edit-text"><a href="https:www.baidu.com"><em>在线留言</em></a></div>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="mail"></a>
+                            <div class="mail-text"><a href="mailto:123@123.com"><em>发送邮件</em></a></div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="next-btn"><a href="javascript:;"></a></li>
+            </ul>
+            <a href="javascript:;" id="onbtn"></a>
+        </div>
+        <!-- 返回顶部 -->
+        <a href="javascript:;" id="backTop"></a>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- 引入jq框架 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

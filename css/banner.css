@@ -1,0 +1,441 @@
+@charset "utf-8";
+#banner {
+  position: relative;
+  width: 100%;
+  height: 620px;
+  margin: 0 auto;
+  user-select: none;
+  overflow: hidden;
+}
+#banner ul{
+  position: relative;
+  width: 100%;
+  height: 620px;
+  perspective: 800px;
+  transform-style: preserve-3d; 
+}
+#banner li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 620px;
+}
+#banner li:first-child {
+  z-index: 1;
+  background: url("../img/banners/banner1.jpg") no-repeat center top;
+}
+#banner li:last-child {
+  /* z-index: 1; */
+  background: url("../img/banners/banner2.jpg") no-repeat center top;
+}
+
+/* 上下轮播样式 */
+#banner ul li.tbA{
+  top: -620px;
+  animation: tbA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.tbB{
+  top: 0;
+  animation: tbB  0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes tbA{
+  from{
+    top: -620px;
+  }
+  to{
+    top: 0;
+  }
+}
+@keyframes tbB{
+  from{
+    top: 0px;
+  }
+  to{
+    top: 620px;
+  }
+}
+
+/* 下到上轮播样式 */
+#banner ul li.btA{
+  top: 0px;
+  animation: btA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.btB{
+  top: 620px;
+  animation: btB  0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes btA{
+  from{
+    top: 0px;
+  }
+  to{
+    top: -620px;
+  }
+}
+@keyframes btB{
+  from{
+    top: 620px;
+  }
+  to{
+    top: 0px;
+  }
+}
+
+/* 左右轮播样式 */
+#banner ul li.lrA{
+  left: -100%;
+  animation: lrA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.lrB{
+  left: 0;
+  animation: lrB  0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes lrA{
+  from{
+    left: -100%;
+  }
+  to{
+   left: 0;
+  }
+}
+@keyframes lrB{
+  from{
+    left: 0;
+  }
+  to{
+    left: 100%;
+  }
+}
+
+/* 淡入淡出样式 */
+#banner ul li.fadeA{
+  opacity: 1;
+  animation: fadeA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.fadeB{
+  opacity: 0;
+  animation: fadeB 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeA{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+@keyframes fadeB{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1
+    ;
+  }
+}
+
+/* 上到下的翻转样式 */
+#banner ul li.tbrA{
+  transform: translateZ(0px) rotateX(0deg) translateZ(0px);
+  animation: tbrA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.tbrB{
+  transform: translateZ(-310px) rotateX(90deg) translateZ(310px);
+  animation: tbrB 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes tbrA{
+  from{
+    transform: translateZ(0px) rotateX(0deg) translateZ(0px);
+  }
+  to{
+    transform: translateZ(-310px) rotateX(-90deg) translateZ(310px);
+  }
+}
+@keyframes tbrB{
+  from{
+    transform:translateZ(-310px) rotateX(90deg) translateZ(310px);
+  }
+  to{
+    transform:translateZ(-310px) rotateX(0deg) translateZ(310px);
+  }
+}
+
+/* 下到上的翻转样式 */
+#banner ul li.btrA{
+  transform: translateZ(0px) rotateX(0deg) translateZ(0px);
+  animation: btrA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.btrB{
+  transform: translateZ(-310px) rotateX(-90deg) translateZ(310px);
+  animation: btrB 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes btrA{
+  from{
+    transform: translateZ(0px) rotateX(0deg) translateZ(0px);
+  }
+  to{
+    transform: translateZ(-310px) rotateX(90deg) translateZ(310px);
+  }
+}
+@keyframes btrB{
+  from{
+    transform:translateZ(-310px) rotateX(-90deg) translateZ(310px);
+  }
+  to{
+    transform:translateZ(-310px) rotateX(0deg) translateZ(310px);
+  }
+}
+
+/* 上到下中心翻转样式 */
+#banner ul li.tbcA{
+  transform: rotateX(0deg);
+  transform-origin: 50% 50%;
+  animation: tbcA 0.5s ease-in;
+  animation-fill-mode: forwards;
+}
+#banner ul li.tbcB{
+  transform: rotateX(90deg);
+  transform-origin: 50% 50%;
+  animation: tbcB 0.5s ease-in 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes tbcA{
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(-90deg);
+  }
+}
+@keyframes tbcB{
+  from{
+    transform: rotateX(90deg);
+  }
+  to{
+    transform: rotateX(0deg);
+  }
+}
+
+/* 下到上中心翻转样式 */
+#banner ul li.btcA{
+  transform: rotateX(0deg);
+  transform-origin: 50% 50%;
+  animation: btcA 0.5s ease-in;
+  animation-fill-mode: forwards;
+}
+#banner ul li.btcB{
+  transform: rotateX(-90deg);
+  transform-origin: 50% 50%;
+  animation: btcB 0.5s ease-in 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes btcA{
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(90deg);
+  }
+}
+@keyframes btcB{
+  from{
+    transform: rotateX(-90deg);
+  }
+  to{
+    transform: rotateX(0deg);
+  }
+}
+
+/* 右到左中心翻转样式 */
+#banner ul li.rlcA{ 
+  transform: rotateY(0deg);
+  transform-origin: 50% 50%;
+  animation: rlcA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.rlcB{
+  transform: rotateY(90deg); 
+  transform-origin: 50% 50%;
+  animation: rlcB 0.5s 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes rlcA{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(-90deg);
+  }
+}
+@keyframes rlcB{
+  from{
+    transform: rotateY(90deg);
+  }
+  to{
+    transform: rotateY(0deg);
+  }
+} 
+
+/* 左到右中心翻转样式 */
+#banner ul li.lrcA{ 
+  transform: rotateY(0deg);
+  transform-origin: 50% 50%;
+  animation: lrcA 0.5s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.lrcB{
+  transform: rotateY(-90deg); 
+  transform-origin: 50% 50%;
+  animation: lrcB 0.5s 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes lrcA{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(90deg);
+  }
+}
+@keyframes lrcB{
+  from{
+    transform: rotateY(-90deg);
+  }
+  to{
+    transform: rotateY(0deg);
+  }
+} 
+
+/* 缩放样式 */
+#banner ul li.zonA{
+  transform: scale(1);
+  animation: zonA 0.8s;
+  animation-fill-mode: forwards;
+}
+#banner ul li.zonB{
+  transform: scale(0.4);
+  animation: zonB 0.8s;
+  animation-fill-mode: forwards;
+}
+@keyframes zonA{
+  from{
+    transform: scale(1);
+    opacity: 1;
+  }
+  to{
+    transform: scale(0.4);
+    opacity: 0;
+  }
+}
+@keyframes zonB{
+  from{
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 左到右翻转样式 */
+#banner ul li.lrrA{
+  transform: rotateX(0deg);
+  transform-origin: 50% 50% -720px;
+  animation: lrrA 0.5s;
+  animation-fill-mode: forwards;
+  z-index: 999;
+}
+#banner ul li.lrrB{
+  transform: rotateY(90deg);
+  transform-origin: 50% 50% -720px;;
+  animation: lrrB 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes lrrA{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(-90deg);
+  }
+}
+@keyframes lrrB{
+  from{
+    transform: rotateY(90deg);
+  }
+  to{
+    transform: rotateY(0deg);
+  }
+}
+
+/* 右到左翻转样式 */
+#banner ul li.rlrA{
+  transform: rotateX(0deg);
+  transform-origin: 50% 50% -720px;
+  animation: rlrA 0.5s;
+  animation-fill-mode: forwards;
+  z-index: 999;
+}
+#banner ul li.rlrB{
+  transform: rotateY(-90deg);
+  transform-origin: 50% 50% -720px;;
+  animation: rlrB 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes rlrA{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(90deg);
+  }
+}
+@keyframes rlrB{
+  from{
+    transform: rotateY(-90deg);
+  }
+  to{
+    transform: rotateY(0deg);
+  }
+}
+
+
+
+#banner .btn{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 20px;
+  z-index: 999;
+  text-align: center;
+}
+#banner .btn span{  
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #222;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+}
+#banner .btn span.on{  
+  background-color: #000;
+  border-color: #fff;
+}

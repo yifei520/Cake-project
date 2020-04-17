@@ -1,0 +1,239 @@
+@charset "utf-8";
+#sell-well {
+  position: relative;
+  width: 100%;
+  height: 682px;
+}
+#sell-well .hot-product {
+  position: absolute;
+  width: 1200px;
+  height: 560px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#sell-well .hot-product .products {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 560px;
+}
+#sell-well .hot-product .products .product-left {
+  width: 805px;
+  height: 100%;
+  background-color: #fff0f4;
+}
+#sell-well .hot-product .products .product-left .product-list {
+  height: 83px;
+  background-color: #fff;
+}
+#sell-well .hot-product .products .product-left .product-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+#sell-well .hot-product .products .product-left .product-list ul li {
+  position: relative;
+  width: 161px;
+  height: 82px;
+  font-size: 16px;
+  border-top: 1px solid orange;
+}
+#sell-well .hot-product .products .product-left .product-list ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 82px;
+}
+#sell-well .hot-product .products .product-left .product-list ul .hot-cake::after,
+#sell-well .hot-product .products .product-left .product-list ul .list-cake::after {
+  position: absolute;
+  top: -1px;
+  content: "";
+  width: 161px;
+  height: 3px;
+  background-color: #692c12;
+}
+#sell-well .hot-product .products .product-left .product-list ul .hot-cake::before,
+#sell-well .hot-product .products .product-left .product-list ul .list-cake::before {
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 0;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top-color: #692c12;
+}
+#sell-well .hot-product .products .product-left .product-list ul .list-cake::after,
+#sell-well .hot-product .products .product-left .product-list ul .list-cake::before {
+  display: none;
+}
+#sell-well .hot-product .products .product-left .product-list ul .list-cake:hover::after,
+#sell-well .hot-product .products .product-left .product-list ul .list-cake:hover::before {
+  display: block;
+}
+#sell-well .hot-product .products .product-left .product-content{
+  position: relative;
+  width: 805px;
+  height: 480px;
+}
+#sell-well .hot-product .products .product-left .contenting {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#sell-well .hot-product .products .product-left .contenting:nth-child(1){
+  background: #fff0f4 none no-repeat left top;
+  z-index: 2;
+}
+#sell-well .hot-product .products .product-left .contenting:nth-child(2){
+  background: #f3f5dc none no-repeat left top; 
+}
+#sell-well .hot-product .products .product-left .contenting:nth-child(3){
+  background: #f7f7f7 none no-repeat left top; 
+}
+#sell-well .hot-product .products .product-left .contenting:nth-child(4){
+  background: #fff8f6 none no-repeat left top;
+}
+#sell-well .hot-product .products .product-left .contenting:nth-child(5){
+  background: #fff0f4 none no-repeat left top;
+}
+
+#sell-well .hot-product .products .product-left .contenting img {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+#sell-well .hot-product .products .product-left .contenting .boom {
+  position: absolute;
+  margin: 0 auto;
+  width: 70px;
+  height: 74px;
+  line-height: 74px;
+  text-align: center;
+}
+#sell-well .hot-product .products .product-left .contenting .con-img {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 700px;
+  height: 276px;
+  margin: auto;
+}
+#sell-well .hot-product .products .product-left .contenting .con-img .img-info{
+  margin-left: 30px;
+  width: 300px;
+  height: 274px;
+}
+#sell-well .hot-product .products .product-left .contenting .con-img .img-info img{
+  width: auto;
+  height: 274px;
+  animation: imgScale 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes imgScale {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro {
+  padding-left: 65px;
+  box-sizing: border-box;
+  width: 355px;
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro h3 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #333;
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro .feature {
+  width: 260px;
+  line-height: 22px;
+  margin: 25px 0 35px 0;
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro .price {
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #f60;
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro .price strong {
+  font-size: 36px;
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro .look-more {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: #692c12;
+  border: 1px solid #692c12;
+  cursor: pointer;
+}
+#sell-well .hot-product .products .product-left .contenting .cake-intro .look-more:hover {
+  background-color: transparent;
+  color: #692c12;
+}
+#sell-well .hot-product .products .product-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 385px;
+  height: 100%;
+}
+#sell-well .hot-product .products .product-right .cakes {
+  width: 100%;
+  height: 275px;
+  background-color: #fff;
+}
+#sell-well .hot-product .products .product-right .product-cake1 {
+  background-color: #fff1ec;
+}
+#sell-well .hot-product .products .product-right .product-cake1 h4 {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  color: #333;
+}
+#sell-well .hot-product .products .product-right .product-cake1 p {
+  padding: 10px 0 15px 0;
+  text-align: center;
+  color: #777;
+}
+#sell-well .hot-product .products .product-right .product-cake1 img {
+  display: block;
+  margin: auto;
+}
+#sell-well .hot-product .products .product-right .product-cake2 {
+  background-color: #f2f2f4;
+}
+#sell-well .hot-product .products .product-right .product-cake2 h4 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  color: #333;
+}
+#sell-well .hot-product .products .product-right .product-cake2 p {
+  padding: 10px 0 15px 0;
+  text-align: center;
+  color: #777;
+}
+#sell-well .hot-product .products .product-right .product-cake2 img {
+  display: block;
+  margin: auto;
+}
